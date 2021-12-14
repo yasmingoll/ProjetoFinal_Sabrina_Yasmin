@@ -1,0 +1,21 @@
+Dependencies for Project 'ADCPrintResults', Target 'ADCPrintResults': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x519AC2C4)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 536"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x61B7F4C1)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025BE24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (portd.h)(0x61B78E49)
+I (portd.c)(0x61B78E49)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (portf.h)(0x5F4404A2)
+I (SysTick.h)(0x5F440E00)
+I (Timer0.h)(0x61245C45)
+I (PLL.c)(0x61B6BA49)
+I (PLL.h)(0x61B6BA49)
+F (.\portf.c)(0x61B79BBA)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\portf.o --omf_browse .\portf.crf --depend .\portf.d)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+F (.\SysTick.c)(0x61B6BAC0)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+F (.\Timer0.c)(0x61B78AED)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
